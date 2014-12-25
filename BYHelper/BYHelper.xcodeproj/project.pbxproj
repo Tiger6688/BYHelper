@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		1AE9FA711A4C03A8003AD38C /* BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE9FA701A4C03A8003AD38C /* BYHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE9FA771A4C03A8003AD38C /* BYHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE9FA6B1A4C03A8003AD38C /* BYHelper.framework */; };
-		1AE9FA7E1A4C03A8003AD38C /* BYHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA7D1A4C03A8003AD38C /* BYHelperTests.swift */; };
 		1AE9FA8A1A4C03CA003AD38C /* BYUIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA891A4C03CA003AD38C /* BYUIImageExt.swift */; };
 		1AE9FA8E1A4C03D3003AD38C /* BYUIAlertViewBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA8B1A4C03D3003AD38C /* BYUIAlertViewBlock.swift */; };
 		1AE9FA8F1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA8C1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift */; };
 		1AE9FA901A4C03D3003AD38C /* BYUIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA8D1A4C03D3003AD38C /* BYUIViewExt.swift */; };
 		1AE9FA931A4C03DA003AD38C /* BYClosureWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA911A4C03DA003AD38C /* BYClosureWrapper.swift */; };
 		1AE9FA941A4C03DA003AD38C /* BYDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA921A4C03DA003AD38C /* BYDelay.swift */; };
+		1AE9FAA51A4C0B32003AD38C /* DelayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FAA41A4C0B32003AD38C /* DelayTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +34,13 @@
 		1AE9FA701A4C03A8003AD38C /* BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYHelper.h; sourceTree = "<group>"; };
 		1AE9FA761A4C03A8003AD38C /* BYHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE9FA7C1A4C03A8003AD38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AE9FA7D1A4C03A8003AD38C /* BYHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYHelperTests.swift; sourceTree = "<group>"; };
 		1AE9FA891A4C03CA003AD38C /* BYUIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYUIImageExt.swift; sourceTree = "<group>"; };
 		1AE9FA8B1A4C03D3003AD38C /* BYUIAlertViewBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYUIAlertViewBlock.swift; sourceTree = "<group>"; };
 		1AE9FA8C1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYUIImagePickerControllerBlock.swift; sourceTree = "<group>"; };
 		1AE9FA8D1A4C03D3003AD38C /* BYUIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYUIViewExt.swift; sourceTree = "<group>"; };
 		1AE9FA911A4C03DA003AD38C /* BYClosureWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYClosureWrapper.swift; sourceTree = "<group>"; };
 		1AE9FA921A4C03DA003AD38C /* BYDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYDelay.swift; sourceTree = "<group>"; };
+		1AE9FAA41A4C0B32003AD38C /* DelayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +106,8 @@
 		1AE9FA7A1A4C03A8003AD38C /* BYHelperTests */ = {
 			isa = PBXGroup;
 			children = (
-				1AE9FA7D1A4C03A8003AD38C /* BYHelperTests.swift */,
 				1AE9FA7B1A4C03A8003AD38C /* Supporting Files */,
+				1AE9FAA41A4C0B32003AD38C /* DelayTest.swift */,
 			);
 			path = BYHelperTests;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AE9FA7E1A4C03A8003AD38C /* BYHelperTests.swift in Sources */,
+				1AE9FAA51A4C0B32003AD38C /* DelayTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +390,7 @@
 		1AE9FA851A4C03A8003AD38C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -402,12 +403,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		1AE9FA861A4C03A8003AD38C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -416,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -438,6 +443,7 @@
 				1AE9FA831A4C03A8003AD38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AE9FA841A4C03A8003AD38C /* Build configuration list for PBXNativeTarget "BYHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +452,7 @@
 				1AE9FA861A4C03A8003AD38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
