@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A039E8C1A4D69E700E8AD8E /* BYUIActionSheetBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A039E8B1A4D69E700E8AD8E /* BYUIActionSheetBlock.swift */; };
 		1A039E8E1A4D6A0000E8AD8E /* BYArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A039E8D1A4D6A0000E8AD8E /* BYArrayExt.swift */; };
+		1A039E901A4D6F1B00E8AD8E /* BYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A039E8F1A4D6F1B00E8AD8E /* BYAlertController.swift */; };
 		1AE9FA711A4C03A8003AD38C /* BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE9FA701A4C03A8003AD38C /* BYHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE9FA771A4C03A8003AD38C /* BYHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE9FA6B1A4C03A8003AD38C /* BYHelper.framework */; };
 		1AE9FA8A1A4C03CA003AD38C /* BYUIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA891A4C03CA003AD38C /* BYUIImageExt.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		1A039E8B1A4D69E700E8AD8E /* BYUIActionSheetBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYUIActionSheetBlock.swift; sourceTree = "<group>"; };
 		1A039E8D1A4D6A0000E8AD8E /* BYArrayExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYArrayExt.swift; sourceTree = "<group>"; };
+		1A039E8F1A4D6F1B00E8AD8E /* BYAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYAlertController.swift; sourceTree = "<group>"; };
 		1AE9FA6B1A4C03A8003AD38C /* BYHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BYHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE9FA6F1A4C03A8003AD38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE9FA701A4C03A8003AD38C /* BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYHelper.h; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				1AE9FA921A4C03DA003AD38C /* BYDelay.swift */,
 				1AE9FA8B1A4C03D3003AD38C /* BYUIAlertViewBlock.swift */,
 				1A039E8B1A4D69E700E8AD8E /* BYUIActionSheetBlock.swift */,
+				1A039E8F1A4D6F1B00E8AD8E /* BYAlertController.swift */,
 				1AE9FA8C1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift */,
 				1AE9FA8D1A4C03D3003AD38C /* BYUIViewExt.swift */,
 				1AE9FA891A4C03CA003AD38C /* BYUIImageExt.swift */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE9FA941A4C03DA003AD38C /* BYDelay.swift in Sources */,
+				1A039E901A4D6F1B00E8AD8E /* BYAlertController.swift in Sources */,
 				1AE9FA8F1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift in Sources */,
 				1AE9FA8A1A4C03CA003AD38C /* BYUIImageExt.swift in Sources */,
 				1AE9FA8E1A4C03D3003AD38C /* BYUIAlertViewBlock.swift in Sources */,
