@@ -14,20 +14,27 @@ public typealias BYAlertCompleteBlock = ( ( NSInteger) -> Void )?
 
 extension UIAlertView : UIAlertViewDelegate{
     
+    private var __block : BYClosureWrapper<BYAlertCompleteBlock>? {
+        get{
+            return objc_getAssociatedObject(self, &key) as? BYClosureWrapper<BYAlertCompleteBlock>
+        }
+        set{
+            objc_setAssociatedObject(self, &key, newValue, UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC));
+        }
+    }
+    
     public func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
-        var block = objc_getAssociatedObject(self, &key) as? BYClosureWrapper<BYAlertCompleteBlock>
-        block?.call?(buttonIndex)
+        self.__block?.call?(buttonIndex)
     }
     
     public func show(finish : BYAlertCompleteBlock){
         
         if finish != nil{
             self.delegate = self
-            objc_setAssociatedObject(self, &key, BYClosureWrapper(finish!), UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC));
+            self.__block = BYClosureWrapper(finish)
         }
         self.show()
         
     }
     
 }
-
