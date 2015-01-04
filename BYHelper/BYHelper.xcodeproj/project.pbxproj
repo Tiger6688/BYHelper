@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1363431A591BFB00F02BE1 /* BYUIActionSheetBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1363421A591BFB00F02BE1 /* BYUIActionSheetBlock.swift */; };
+		1A1363451A591C6500F02BE1 /* BYAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1363441A591C6500F02BE1 /* BYAlertController.swift */; };
 		1AE9FA711A4C03A8003AD38C /* BYHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE9FA701A4C03A8003AD38C /* BYHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AE9FA771A4C03A8003AD38C /* BYHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE9FA6B1A4C03A8003AD38C /* BYHelper.framework */; };
 		1AE9FA8A1A4C03CA003AD38C /* BYUIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE9FA891A4C03CA003AD38C /* BYUIImageExt.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1363421A591BFB00F02BE1 /* BYUIActionSheetBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYUIActionSheetBlock.swift; sourceTree = "<group>"; };
+		1A1363441A591C6500F02BE1 /* BYAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BYAlertController.swift; sourceTree = "<group>"; };
 		1AE9FA6B1A4C03A8003AD38C /* BYHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BYHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE9FA6F1A4C03A8003AD38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE9FA701A4C03A8003AD38C /* BYHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYHelper.h; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				1AE9FA911A4C03DA003AD38C /* BYClosureWrapper.swift */,
 				1AE9FA921A4C03DA003AD38C /* BYDelay.swift */,
 				1AE9FA8B1A4C03D3003AD38C /* BYUIAlertViewBlock.swift */,
+				1A1363421A591BFB00F02BE1 /* BYUIActionSheetBlock.swift */,
+				1A1363441A591C6500F02BE1 /* BYAlertController.swift */,
 				1AE9FA8C1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift */,
 				1AE9FA8D1A4C03D3003AD38C /* BYUIViewExt.swift */,
 				1AE9FA891A4C03CA003AD38C /* BYUIImageExt.swift */,
@@ -228,9 +234,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE9FA941A4C03DA003AD38C /* BYDelay.swift in Sources */,
+				1A1363451A591C6500F02BE1 /* BYAlertController.swift in Sources */,
 				1AE9FA8F1A4C03D3003AD38C /* BYUIImagePickerControllerBlock.swift in Sources */,
 				1AE9FA8A1A4C03CA003AD38C /* BYUIImageExt.swift in Sources */,
 				1AE9FA8E1A4C03D3003AD38C /* BYUIAlertViewBlock.swift in Sources */,
+				1A1363431A591BFB00F02BE1 /* BYUIActionSheetBlock.swift in Sources */,
 				1AE9FA931A4C03DA003AD38C /* BYClosureWrapper.swift in Sources */,
 				1AE9FA901A4C03D3003AD38C /* BYUIViewExt.swift in Sources */,
 			);

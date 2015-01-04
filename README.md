@@ -13,7 +13,6 @@ swift类库的扩展和继承，方便开发调用
 delay(2, { () -> () in
 	println("2秒后执行")
 })
-
 let task = delay(1,{ () -> () in)
 	println("已经取消了，永远进不来")
 }
@@ -33,6 +32,31 @@ alert.show({ (index) -> Void in
     	println("按了确定")
     }
 })
+```
+
+###BYUIActionSheetBlock
+
+提供UIActionSheet的闭包扩展
+
+```swift
+var t = UIActionSheet(title: "", delegate: nil, cancelButtonTitle: "取消", destructiveButtonTitle: "删除", otherButtonTitles: "按钮1", "按钮2")
+t.showInView(self.view, finish: { (index) -> Void in
+	println(index)
+})
+```
+
+###BYAlertController
+
+方便在ios8适配中使用弹出视图，ios7中调用UIAlertView、UIActionSheet创建，iOS8使用UIAlertController创建
+
+```swift
+var sheet = BYAlertController(title: "选择图片", message: nil, preferredStyle: .ActionSheet, cancelButtonTitle: "取消", otherButtonTitles: "拍照","相册")
+sheet.showAlertViewInViewController(self, clickedCancelButton: {
+	println("按了取消"")
+})
+{ (index) -> () in
+	println(index)	 
+}
 ```
 
 ###BYUIImagePickerControllerBlock
