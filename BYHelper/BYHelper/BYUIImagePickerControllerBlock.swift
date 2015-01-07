@@ -33,7 +33,7 @@ extension UIImagePickerController : UIImagePickerControllerDelegate,UINavigation
         self.allowsEditing = true
         
         var sheet = BYAlertController(title: "选择图片", message: nil, preferredStyle: .ActionSheet, cancelButtonTitle: "取消", otherButtonTitles: "拍照","相册")
-        sheet.showAlertViewInViewController(self, clickedCancelButton: nil) { (index) -> () in
+        sheet.showAlertViewInViewController(vc, clickedCancelButton: nil) { (index) -> () in
             
             var sourceType : UIImagePickerControllerSourceType = .PhotoLibrary
             
