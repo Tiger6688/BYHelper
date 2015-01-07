@@ -56,6 +56,7 @@ extension UIImagePickerController : UIImagePickerControllerDelegate,UINavigation
         if image != nil{
             self.__block?.call?(image!)
         }
+        picker.dismissViewControllerAnimated(true, completion: nil)
     }
     
 }
