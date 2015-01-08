@@ -23,23 +23,23 @@
 			remoteGlobalIDString = 1AD9EB8B1A5E63420078E092;
 			remoteInfo = BYHelperDemo;
 		};
-		1AD9EBB61A5E635B0078E092 /* PBXContainerItemProxy */ = {
+		1AD9EBC41A5E6C520078E092 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1AD9EBB11A5E635B0078E092 /* BYHelper.xcodeproj */;
+			containerPortal = 1AD9EBBF1A5E6C520078E092 /* BYHelper.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1AE9FA6B1A4C03A8003AD38C;
 			remoteInfo = BYHelper;
 		};
-		1AD9EBB81A5E635B0078E092 /* PBXContainerItemProxy */ = {
+		1AD9EBC61A5E6C520078E092 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1AD9EBB11A5E635B0078E092 /* BYHelper.xcodeproj */;
+			containerPortal = 1AD9EBBF1A5E6C520078E092 /* BYHelper.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1AE9FA761A4C03A8003AD38C;
 			remoteInfo = BYHelperTests;
 		};
-		1AD9EBBA1A5E63840078E092 /* PBXContainerItemProxy */ = {
+		1AD9EBC81A5E6C5E0078E092 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1AD9EBB11A5E635B0078E092 /* BYHelper.xcodeproj */;
+			containerPortal = 1AD9EBBF1A5E6C520078E092 /* BYHelper.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 1AE9FA6A1A4C03A8003AD38C;
 			remoteInfo = BYHelper;
@@ -56,8 +56,8 @@
 		1AD9EBA11A5E63420078E092 /* BYHelperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYHelperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD9EBA61A5E63420078E092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD9EBA71A5E63420078E092 /* BYHelperDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYHelperDemoTests.swift; sourceTree = "<group>"; };
-		1AD9EBB11A5E635B0078E092 /* BYHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BYHelper.xcodeproj; path = ../../../BYHelper/BYHelper.xcodeproj; sourceTree = "<group>"; };
 		1AD9EBBC1A5E641E0078E092 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1AD9EBBF1A5E6C520078E092 /* BYHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BYHelper.xcodeproj; path = ../../BYHelper/BYHelper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		1AD9EB8E1A5E63420078E092 /* BYHelperDemo */ = {
 			isa = PBXGroup;
 			children = (
-				1AD9EBB11A5E635B0078E092 /* BYHelper.xcodeproj */,
+				1AD9EBBF1A5E6C520078E092 /* BYHelper.xcodeproj */,
 				1AD9EB911A5E63420078E092 /* AppDelegate.swift */,
 				1AD9EBBC1A5E641E0078E092 /* TableViewController.swift */,
 				1AD9EB951A5E63420078E092 /* Main.storyboard */,
@@ -135,11 +135,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1AD9EBB21A5E635B0078E092 /* Products */ = {
+		1AD9EBC01A5E6C520078E092 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AD9EBB71A5E635B0078E092 /* BYHelper.framework */,
-				1AD9EBB91A5E635B0078E092 /* BYHelperTests.xctest */,
+				1AD9EBC51A5E6C520078E092 /* BYHelper.framework */,
+				1AD9EBC71A5E6C520078E092 /* BYHelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,7 +158,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1AD9EBBB1A5E63840078E092 /* PBXTargetDependency */,
+				1AD9EBC91A5E6C5E0078E092 /* PBXTargetDependency */,
 			);
 			name = BYHelperDemo;
 			productName = BYHelperDemo;
@@ -214,8 +214,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 1AD9EBB21A5E635B0078E092 /* Products */;
-					ProjectRef = 1AD9EBB11A5E635B0078E092 /* BYHelper.xcodeproj */;
+					ProductGroup = 1AD9EBC01A5E6C520078E092 /* Products */;
+					ProjectRef = 1AD9EBBF1A5E6C520078E092 /* BYHelper.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -227,18 +227,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1AD9EBB71A5E635B0078E092 /* BYHelper.framework */ = {
+		1AD9EBC51A5E6C520078E092 /* BYHelper.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = BYHelper.framework;
-			remoteRef = 1AD9EBB61A5E635B0078E092 /* PBXContainerItemProxy */;
+			remoteRef = 1AD9EBC41A5E6C520078E092 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		1AD9EBB91A5E635B0078E092 /* BYHelperTests.xctest */ = {
+		1AD9EBC71A5E6C520078E092 /* BYHelperTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = BYHelperTests.xctest;
-			remoteRef = 1AD9EBB81A5E635B0078E092 /* PBXContainerItemProxy */;
+			remoteRef = 1AD9EBC61A5E6C520078E092 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -289,10 +289,10 @@
 			target = 1AD9EB8B1A5E63420078E092 /* BYHelperDemo */;
 			targetProxy = 1AD9EBA21A5E63420078E092 /* PBXContainerItemProxy */;
 		};
-		1AD9EBBB1A5E63840078E092 /* PBXTargetDependency */ = {
+		1AD9EBC91A5E6C5E0078E092 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BYHelper;
-			targetProxy = 1AD9EBBA1A5E63840078E092 /* PBXContainerItemProxy */;
+			targetProxy = 1AD9EBC81A5E6C5E0078E092 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -468,6 +468,7 @@
 				1AD9EBAD1A5E63420078E092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AD9EBAE1A5E63420078E092 /* Build configuration list for PBXNativeTarget "BYHelperDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				1AD9EBB01A5E63420078E092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
