@@ -12,8 +12,8 @@ import UIKit
 let DeviceVersion  =   (UIDevice.currentDevice().systemVersion as NSString).floatValue
 let IOS7 = ( DeviceVersion >= 7 && DeviceVersion < 8 )
 
-typealias BYAlertControllerCancelAction = (()->())?
-typealias BYAlertControllerOtherAction = ((NSInteger)->())?
+public typealias BYAlertControllerCancelAction = (()->())?
+public typealias BYAlertControllerOtherAction = ((NSInteger)->())?
 
 public class BYAlertController: NSObject {
     
@@ -26,7 +26,7 @@ public class BYAlertController: NSObject {
     
     private var preferredStyle : UIAlertControllerStyle = .Alert
     
-    init( title : String? , message : String?  ,preferredStyle : UIAlertControllerStyle , cancelButtonTitle : String? , otherButtonTitles : String? , _ moreButtonTitles : String?...) {
+    public init( title : String? , message : String?  ,preferredStyle : UIAlertControllerStyle , cancelButtonTitle : String? , otherButtonTitles : String? , _ moreButtonTitles : String?...) {
         
         super.init()
         
@@ -92,7 +92,7 @@ public class BYAlertController: NSObject {
         
     }
     
-    func showAlertViewInViewController( vc : UIViewController? ,clickedCancelButton: BYAlertControllerCancelAction , clickedOtherButtonAtIndex : BYAlertControllerOtherAction  ){
+    public func showAlertViewInViewController( vc : UIViewController? ,clickedCancelButton: BYAlertControllerCancelAction , clickedOtherButtonAtIndex : BYAlertControllerOtherAction  ){
         
         self.cancelAction = clickedCancelButton
         self.otherAction = clickedOtherButtonAtIndex
